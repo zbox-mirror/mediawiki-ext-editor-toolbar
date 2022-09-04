@@ -1,0 +1,14 @@
+.tool-button {
+  $size: 16px;
+
+  &[rel^='ext.'] {
+    background-position: unset;
+    background-size: contain;
+    background-color: #fff;
+    border: 3px solid #fff;
+    border-radius: 3px;
+    margin: 0 2px;
+    height: $size;
+    width: $size;
+  }
+}
